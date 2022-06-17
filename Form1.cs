@@ -128,10 +128,6 @@ namespace towerBreakers
         }
         public static int towerBreakers(int n, int m)
         {
-            /*int result = (n * m) % 2;
-
-            return (result == 1) ? 1 : 2;*/
-
             if (n % 2 == 1 && m > 1)
             {
                 return 1;
